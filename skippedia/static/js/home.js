@@ -51,7 +51,7 @@ function createTable(angkatan,jurusan,sort,nama){
 		}	
 	}
 	var Http = new XMLHttpRequest();
-	var url = "http://skip-pedia.herokuapp.com/api/students?" + params;
+	var url = "https://skip-pedia.herokuapp.com/api/students?" + params;
 	console.log(url);
 	Http.open("GET", url);
 	Http.responseType = 'text';
