@@ -61,7 +61,6 @@ social-auth-core==3.2.0
 soupsieve==1.7.3
 sqlite-web==0.3.6
 sqlparse==0.3.0
-system-service==0.3
 systemd-python==234
 toml==0.10.0
 tornado==4.5.1
