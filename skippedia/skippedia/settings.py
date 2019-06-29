@@ -25,7 +25,7 @@ SECRET_KEY = '8*4n)1+c_p@lplki$tostf-h+cedr#_sde1u%phz&rjdetw6#o'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["https://skip-pedia.herokuapp.com/"]
+ALLOWED_HOSTS = ["skip-pedia.herokuapp.com"]
 
 # Application definition
 
