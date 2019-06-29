@@ -12,7 +12,6 @@ Click==7.0
 cryptography==2.1.4
 defusedxml==0.6.0
 dhooks==1.1.0
-distro-info==0.18
 Django==2.2.2
 django-cors-headers==3.0.2
 django-livesync==0.4
