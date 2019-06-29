@@ -1,6 +1,5 @@
 aiohttp==3.5.4
 appdirs==1.4.3
-apturl==0.5.2
 argh==0.26.2
 asn1crypto==0.24.0
 async-timeout==3.0.1
