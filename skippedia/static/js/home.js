@@ -53,7 +53,7 @@ function createTableActive(angkatan,jurusan,sort,nama){
 		}	
 	}
 	var Http = new XMLHttpRequest();
-	var url = "http://127.0.0.1:1924/api/students?" + params;
+	var url = "https://skip-pedia.herokuapp.com/api/students?" + params;
 	console.log(url);
 	Http.open("GET", url);
 	Http.responseType = 'text';
@@ -150,7 +150,7 @@ function createTableSkip(angkatan,jurusan,sort,nama){
 		}	
 	}
 	var Http2 = new XMLHttpRequest();
-	var url2 = "http://127.0.0.1:1924/api/students?" + params2;
+	var url2 = "https://skip-pedia.herokuapp.com/api/students?" + params2;
 	console.log(url2);
 	Http2.open("GET", url2);
 	Http2.responseType = 'text';

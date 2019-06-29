@@ -53,7 +53,7 @@ function createTable(angkatan,jurusan,sort,nama){
 		}	
 	}
 	var Http = new XMLHttpRequest();
-	var url = "http://127.0.0.1:1924/api/students?" + params;
+	var url = "https://skip-pedia.herokuapp.com/api/students?" + params;
 	console.log(url);
 	Http.open("GET", url);
 	Http.responseType = 'text';
@@ -107,6 +107,5 @@ function newFilter(){
 }
 
 document.addEventListener("DOMContentLoaded", function() {
-	console.log("TES")
    createTable("","","DESC","");
 });
