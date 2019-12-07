@@ -18,8 +18,8 @@ lt_token = list(set(tree.xpath("//input[@name='lt']/@value")))
 execution_token = list(set(tree.xpath("//input[@name='execution']/@value")))
 payload = {
 
-	"username" :"hanifadzkiya",
-	"password" : "Kitaindonesia24",
+	"username" :"Username",
+	"password" : "Password",
 	"lt" : lt_token[0],
 	"execution" : execution_token[0],
 	"_eventId" : "submit"
